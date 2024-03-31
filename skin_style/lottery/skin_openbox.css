@@ -1,0 +1,135 @@
+body{
+    display: grid;
+    grid-template-rows: 90px 1455px;
+}
+.openbox_middle{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 30px 100px 10px 30px 10px 300px 100px 10px 30px 10px 825px;
+    grid-template-columns: 1500px;
+}
+.openbox_middle_title{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5rem;
+}
+.openbox_middle_rolling{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: #1c202b;
+}
+.openbox_middle_rolling_frame{
+    max-width: 200px;
+    width: 200px;
+    max-height: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+.openbox_middle_rolling_item{
+    display: grid;
+    position: relative;
+    grid-template-rows: 100px 50px;
+    box-shadow: 0 0 4px 0 #B5B5B5;
+    /*margin: 15px 35px 15px 35px;*/
+}
+/*每件热卖商品*/
+.openbox_middle_rolling_item_pic{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.openbox_middle_rolling_item_inf_name p{
+    color: black;
+    display: grid;
+    justify-content: center;
+}
+.openbox_middle_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c202b;
+}
+.openbox_middle_button_block{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid goldenrod;
+    background-color: #D6A724;
+    max-width: 100px;
+    width: 100px;
+    max-height: 50px;
+    height: 50px;
+}
+.openbox_middle_button_block button{
+    border: 0px;
+    font-size: 1.2rem;
+    background-color: transparent;
+}
+.openbox_middle_button_block:active{
+    background-color: #D68246;
+}
+.openbox_middle_button_price{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid goldenrod;
+    grid-template-columns: 19px 40px;
+    max-width: 100px;
+    width: 100px;
+    max-height: 50px;
+    height: 50px;
+}
+.openbox_middle_button_price p{
+    margin: 0px 0px 0px 10px;
+    color: #eea20e;
+    font-size: 20px;
+}
+.openbox_middle_market{
+    /*display: grid;
+    grid-template-columns: repeat(5,300px);
+    grid-template-rows: repeat(2,250px);*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/*中部市场热卖部分*/
+.openbox_middle_market_item{
+    display: grid;
+    grid-template-rows: 140px 100px;
+    max-width: 240px;
+    width: 240px;
+    max-height: 240px;
+    height: 240px;
+    margin-right: 75px;
+    margin-top: 20px;
+    box-shadow: 0 0 4px 0 #B5B5B5;
+    /*margin: 15px 35px 15px 35px;*/
+}
+/*每件热卖商品*/
+.openbox_middle_market_item_pic{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.openbox_middle_market_item_inf_name{
+    margin-left: 10px;
+}
+.openbox_middle_market_item_inf_name a p{
+    color: black;
+}
+.openbox_middle_market_item_inf_name a:hover p{
+    color: gold;
+}
+.openbox_middle_market_item_inf_price{
+    display: grid;
+    grid-template-columns: 19px 211px;
+    margin-left: 10px;
+}
+.openbox_middle_market_item_inf_price p{
+    margin: 0px 0px 0px 10px;
+    color: #eea20e;
+    font-size: 20px;
+}

@@ -1,0 +1,29 @@
+.add_middle{
+    display: grid;
+    grid-template-rows: 730px 100px;
+}
+.add_middle_input{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.add_middle_input ul{
+
+}
+.add_middle_input ul li{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 115px 300px;
+    margin-top: 20px;
+
+}
+.add_middle_input_text{
+    display: grid;
+    justify-content: center;
+}
+.add_middle_button{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: pink;
+}

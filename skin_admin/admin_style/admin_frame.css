@@ -1,0 +1,26 @@
+.admin_core{
+    display: flex;
+    flex-direction: column;
+}
+.admin_title{
+    display: grid;
+    grid-template-columns: 5% 95%;
+    background-color: #2E3846;
+    max-height: 100px;
+    height: 100px;
+}
+.admin_middle{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 850px;
+}
+.admin_middle_menu{
+    border: 1px solid black;
+}
+.admin_middle_menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+.admin_middle_frame{
+    border: 1px solid black;
+}

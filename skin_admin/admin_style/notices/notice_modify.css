@@ -1,0 +1,26 @@
+.manage_middle{
+    display: grid;
+    grid-template-rows: 50px 10px 720px 50px;
+}
+.manage_middle_search{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: #0079E4;
+}
+.manage_middle_search select{
+    max-width: 147px;
+    width: 147px;
+    max-height: 22px;
+    height: 22px;
+}
+.add_middle_button{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: pink;
+}
+.manage_middle_list{
+    display: grid;
+    justify-content: center;
+}

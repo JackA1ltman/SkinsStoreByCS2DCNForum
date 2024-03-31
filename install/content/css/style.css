@@ -1,0 +1,41 @@
+.install_middle{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1500px;
+    grid-template-rows: 36px 800px;
+}
+.install_middle_top{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: #2E3846;
+    color: white;
+}
+.install_middle_core{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 36px 650px 64px 50px;
+    grid-template-columns: 1500px;
+}
+.install_middle_core2{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 26px 50px 26px 120px 26px 200px;
+    grid-template-columns: 1500px;
+}
+.install_middle_core3{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.install_middle_title{
+    display: grid;
+    justify-content: center;
+}
+.install_middle_php_ver{
+    display: grid;
+    justify-content: center;
+}
+.install_middle_sql{
+    margin: 10px 0 0 620px;
+}

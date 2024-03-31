@@ -1,0 +1,130 @@
+.roof_logo{
+    display: grid;
+    margin: 0px 60px;
+    max-width: 200px;
+    /*width: 200px;*/
+    max-height: 90px;
+    /*height: 90px;*/
+    align-content: center;
+    justify-content: center;
+    /*background-color: red;*/
+}
+/*LOGO 部分*/
+.roof_nav{
+    display: grid;
+    grid-template-columns: repeat(9, 100px);
+    grid-template-rows: 90px;
+    max-width: 1080px;
+    max-height: 90px;
+    /*background-color: green;*/
+}
+/*导航栏中间选项部分 预设最多放置9个按钮 超过需要修改列宽，margin等*/
+.roof_nav a{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+/*导航栏a标签*/
+.roof_nav a:visited strong{
+    color: #A0A1A0;
+}
+/*当前页面*/
+.roof_nav a:link strong{
+    color: #A0A1A0;
+}
+/*未选中*/
+.roof_nav a:hover{
+    background-image: linear-gradient(transparent,#6C6C6C);
+}
+/*鼠标悬停*/
+.roof_login{
+    display: grid;
+    margin: 0px;
+    align-content: center;
+    justify-content: center;
+    /*background-color: blue;*/
+}
+/*右边登陆信息部分*/
+.roof_login p{
+    color: #fff;
+}
+/*p标签部分*/
+.roof_login p:visited{
+    color: #A0A1A0;
+}
+.roof_login p:link{
+    color: #fff;
+}
+/*登陆文字*/
+.roof_user{
+    display: grid;
+    grid-template-rows: 75px 75px;
+    grid-template-columns: 85px 115px;
+    position: relative;
+    top: 65px;
+    z-index: 10;
+    background: linear-gradient(#90969C,#313a45);
+    max-width: 200px;
+    width: 200px;
+    max-height: 150px;
+    height: 150px;
+}
+/*个人资料简页部分*/
+.roof_user_pic{
+    display: block;
+    max-width: 50px;
+    width: 50px;
+    max-height: 50px;
+    height: 50px;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/*资料部分头像*/
+.roof_user_pic img{
+    border-radius: 50%;
+}
+.roof_user_id{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+/*小页用户ID部分*/
+.roof_user_id p{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size: 13px;
+}
+.roof_user_id a p{
+    background-color: #4773C8;
+    font-size: 11px;
+}
+.roof_user_power_pic{
+    display: block;
+}
+/*电池图片部分*/
+.roof_user_power_pic img{
+    max-width: 20px;
+    width: 18px;
+    max-height: 20px;
+    height: 22px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.roof_user_power_pic_inf{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+/*电池图片下面的信息*/
+.roof_user_power_pic div a p{
+    background-color: #AB0E00;
+    font-size: 13px;
+}
+.roof_user_power_inf p{
+    font-size: 10px;
+}
+.roof_user_power_inf div p{
+    font-size: 10px;
+}

@@ -1,0 +1,71 @@
+.lottery_middle{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 30px 100px 50px 525px 50px 525px;
+    grid-template-columns: 1500px;
+}
+.lottery_middle_hot{
+    display: grid;
+    border-bottom: 1px solid #BF9E4B;
+}
+.lottery_middle_hot_inf{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    max-width: 130px;
+    width: 130px;
+    max-height: 35px;
+    height: 35px;
+    margin-top: 15px;
+    background: linear-gradient(#A67A22,#CBA839);
+}
+/*金色文字部分*/
+.lottery_middle_hot_inf p{
+    color: white;
+}
+.lottery_middle_market{
+    /*display: grid;
+    grid-template-columns: repeat(5,300px);
+    grid-template-rows: repeat(2,250px);*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/*中部市场热卖部分*/
+.lottery_middle_market_item{
+    display: grid;
+    grid-template-rows: 140px 100px;
+    max-width: 240px;
+    width: 240px;
+    max-height: 240px;
+    height: 240px;
+    margin-right: 75px;
+    margin-top: 20px;
+    box-shadow: 0 0 4px 0 #B5B5B5;
+    /*margin: 15px 35px 15px 35px;*/
+}
+/*每件热卖商品*/
+.lottery_middle_market_item_pic{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.lottery_middle_market_item_inf_name{
+    margin-left: 10px;
+}
+.lottery_middle_market_item_inf_name a p{
+    color: black;
+}
+.lottery_middle_market_item_inf_name a:hover p{
+    color: gold;
+}
+.lottery_middle_market_item_inf_price{
+    display: grid;
+    grid-template-columns: 19px 211px;
+    margin-left: 10px;
+}
+.lottery_middle_market_item_inf_price p{
+    margin: 0px 0px 0px 10px;
+    color: #eea20e;
+    font-size: 20px;
+}

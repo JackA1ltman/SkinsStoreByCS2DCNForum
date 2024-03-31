@@ -1,0 +1,29 @@
+.help_middle_core{
+    display: grid;
+    grid-template-columns: 400px 120px 900px;
+    grid-template-rows: 1150px;
+}
+.help_middle_left{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: #181C23;
+}
+.help_middle_left_entire{
+    display: grid;
+    grid-template-rows: repeat(25,40px);
+    max-width: 300px;
+    width: 300px;
+    max-height: 1000px;
+    height: 1000px;
+}
+.help_middle_left_bar{
+    border-left: 2px solid #4773C8;
+    padding-left: 9px;
+}
+.help_middle_left_bar a{
+    color: #C4C8CE;
+}
+.help_middle_right{
+    background-color: white;
+}

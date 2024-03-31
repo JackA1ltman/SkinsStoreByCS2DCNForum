@@ -1,0 +1,24 @@
+.index_middle{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 150px
+}
+.index_middle_block{
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: whitesmoke;
+}
+.index_middle_block_in{
+    margin: 2%;
+    border: 1px solid grey;
+    display: grid;
+    height: 94%;
+    grid-template-rows: 70% 30%;
+}
+.index_middle_block_in_up{
+    border-bottom: 1px solid grey;
+    background: radial-gradient(#ffffff 10%, #4b69ff 45%, #101822 95%);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}

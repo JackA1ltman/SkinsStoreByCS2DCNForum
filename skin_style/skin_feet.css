@@ -1,0 +1,13 @@
+.feet_inf{
+    color: #959595;
+}
+.feet_inf a{
+    color: white;
+}
+.feet_inf p{
+    font-size: 12px;
+    text-align: center;
+}
+.feet_inf p a:visited{
+    color: white;
+}

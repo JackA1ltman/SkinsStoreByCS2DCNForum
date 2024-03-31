@@ -1,0 +1,62 @@
+.core_notice_background {
+    display: none;
+    background-color: #000;
+    position: absolute;
+    max-height: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    opacity:0.6;
+}
+
+.core_notice {
+    display: none;
+    background-color: #FFFFFF;
+    z-index: 11;
+    max-width: 600px;
+    width: 600px;
+    max-height: 300px;
+    height: 300px;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+}
+
+.core_notice_entire{
+    display: grid;
+    grid-template-rows: 20px 260px 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.core_notice_roof{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 600px;
+    background-color: gray;
+}
+
+.core_notice_roof p{
+    font-size: 14px;
+}
+
+.core_notice_button{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.core_notice_button a{
+    display: grid;
+    justify-content: center;
+    background-color: red;
+    width: 50px;
+    font-size: 14px;
+}
