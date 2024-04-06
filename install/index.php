@@ -1,4 +1,4 @@
-04<?php
+<?php
 require_once "../skin_content/skin_config.php";
 
 $version="202102120001";
